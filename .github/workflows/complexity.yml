@@ -1,4 +1,4 @@
-name: complex
+name: complexity
 
 on:push
 
@@ -6,7 +6,7 @@ jobs:
 
     windows:
      name:first job
-     runs-on:windows-latest
+     runs-on: windows-latest
      steps:
       - run: date
     ubuntu:
